@@ -27,7 +27,12 @@ public class Main {
         x /= 3;
         System.out.println(x);
 
-
+        double y = 5/9 * (x - 32);
+        x = 145.32f;
+        System.out.println(y);
+        doStuff(5);
+        int z = 10;
+        doStuff(z);
 
     }
 
@@ -86,8 +91,11 @@ public class Main {
         int div = 185 / 56;
         return div;
     }
+public static void doStuff(int y){
+    System.out.println(y);
+}
+}
 
-     }
 
 
 
