@@ -33,6 +33,11 @@ public class Main {
         doStuff(5);
         int z = 10;
         doStuff(z);
+        System.out.println("Celsius temperature is = "+celsius(90.45));
+        System.out.println("Meters converted from inches = "+meters(1000));
+        System.out.println("Speed1 = "+speed1(10000,1,15,6));
+        System.out.println("Speed2 = "+speed2(10000,1,15,6));
+        System.out.println("Speed3 = "+speed3(10000,1,15,6));
 
     }
 
@@ -94,6 +99,35 @@ public class Main {
 public static void doStuff(int y){
     System.out.println(y);
 }
+    static double celsius(double f)
+    {
+        return (f-32)*5/9;
+    }
+    static double meters(int inches)
+    {
+        return inches * 0.0254;
+    }
+    static double speed1(int distance,int hours,int minutes,int second)
+    {
+//Speed = Distance / Time
+        int timeseconds=(hours*3600) + (minutes*60)+second;
+        return distance/timeseconds;
+    }
+    static double speed2(int distance,int hours,int minutes,int second)
+    {
+//Speed = Distance / Time
+        int timeseconds=hours + (minutes/60);
+        int km=distance/1000;
+        return km/timeseconds;
+    }
+    static double speed3(int distance,int hours,int minutes,int second)
+    {
+//Speed = Distance / Time
+        int timeseconds=hours + (minutes/60);
+        int km=distance/1609;
+        return km/timeseconds;
+    }
+    }
 }
 
 
