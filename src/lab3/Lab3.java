@@ -34,7 +34,7 @@ public class Lab3 {
             System.out.println(op.isEligibleToVote(20));
             System.out.println(op.isEligibleToVote(12));
             System.out.println(op.isMaxNumber(15,23,78));
-            System.out.println(op.isMaxNumber(0,0,0));
+            System.out.println(op.isMaxNumber(12,18,88));
         }
 
 
