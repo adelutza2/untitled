@@ -1,63 +1,16 @@
 package AnimalRescue;
 
-public class Girl {
-    String name;
-    String Breed;
-    int ani;
-    String colorhair;
-    float weight;
-    int heightincm;
+public class Girl extends Oameni {
 
-    public String getColorhair() {
-        return colorhair;
+     private boolean girl;
+
+    public boolean isGirl() {
+        return girl;
     }
 
-    public void setColorhair(String colorhair){
-        this.colorhair = colorhair;}
-
-    public float getWeight(){
-        return weight;
+    public void setGirl(boolean girl) {
+        this.girl = girl;
     }
-     public void setWeight(float weight){
-        this.weight = weight;
-     }
-
-    public String getName() {
-        return name;
-    }
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public String getBreed(){
-        return Breed;
-    }
-    public void setBreed(String breed){
-        this.Breed = Breed;
-    }
-
-    public int getAni(){
-      return ani;
-    }
-    public void setAni(int ani) {
-        this.ani = ani;
-    }
-    public int getHeightincm(){
-        return heightincm;
-    }
-    public void setHeightincm(int weight){
-        this.heightincm = heightincm;
-    }
-
-
-
-
-
-
-
-
-
-
 
     public void callthedog() {
         System.out.println("Daisy come and eat");
