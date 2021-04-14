@@ -33,4 +33,16 @@ public void walkthedog(){
 }
 public void gotothe(){
     System.out.println("today we will go to the vet!");
-}}
+}
+
+    @Override
+    public void jump() {
+        System.out.println("jump rex");
+    }
+
+    @Override
+    public void seeyou() {
+        System.out.println("i want to see you next time");
+    }
+}
+

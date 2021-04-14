@@ -12,5 +12,20 @@ private String fur;
         this.fur = fur;
     }
 
+    @Override
+    public void speack() {
+        System.out.println("ham ham");
+
+    }
+
+    @Override
+    public void foodtoeat() {
+        System.out.println("bones");
+    }
+
+    @Override
+    public void play() {
+        System.out.println("bark bark");
+    }
 }
 

@@ -56,7 +56,7 @@ public class Animal {
 
 
 
-public void speack () {
+public  void speack () {
     System.out.println(" i am speacking ");
 }
 public void eat(){
@@ -72,7 +72,19 @@ public void sleep(){
 
 public void play(){
     System.out.println(" wuf wuf wuf ");
+
 }
+public void foodtoeat(){
+    System.out.println("i eat something");
+
 }
+
+
+
+
+    }
+
+
+
 
 
